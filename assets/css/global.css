@@ -1,0 +1,10 @@
+@import url(./reset.css);
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #034388;
+    color: black;
+}
+
