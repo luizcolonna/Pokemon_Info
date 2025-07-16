@@ -37,7 +37,7 @@ async function getPokemon() {
         
         POKEMON.id = POKEMON_DATA.id;
         POKEMON.name = POKEMON_DATA.name;
-        POKEMON.photo = POKEMON_DATA.sprites.other.dream_world.front_default;
+        POKEMON.photo = POKEMON_DATA.sprites.other.home.front_default;
         POKEMON.height = POKEMON_DATA.height;
         POKEMON.weight = POKEMON_DATA.weight;
         POKEMON.types = POKEMON_DATA.types.map((t)=>t.type.name);
